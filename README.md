@@ -4,7 +4,7 @@ This is my Django news application that uses bootstrap for a simple, clean user 
 
 ## Admins - Important
 
-Roles are assigned by django admin users or superusers. All users who register on the app first become readers. Readers can apply for a role via the navbar button. Once applied, an admin will need to review the application and if changed to 'approved' status, their role will change and the reader will lose their subscriptions (if any), while gaining new permissions and functions based on their new role. If the user's new role is a journalist or editor, the admin will also need to assign them to a Publisher.
+Roles are assigned by django admin users or superusers. All users who register on the app first become readers. Readers can apply for a role via the navbar button. Once applied, an admin can review the application and if approved, the reader's role will change, they will lose their subscriptions (if any) and gain permissions and functions based on their new role. If the user's new role is a journalist or editor, the admin will also need to assign them to a Publisher. These options are cleanly presented to the admin from their dashboard from where they can review, approve and reject role applications.
 
 ## User functionality and permissions
 
